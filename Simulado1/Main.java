@@ -22,6 +22,8 @@ public class Main{
         UserAccount user16 = new UserAccount("bruno.teixeira@gmail.com", "Bruno123");
         UserAccount user17 = new UserAccount("patricia.gomes@gmail.com", "Patricia123");
 
+        // TODO vá fazendo passo a passo para facilitar o entendimento do que funciona ou não.
+
         user1.acceptFollower(user2);
         user1.acceptFollower(user5);
         user1.acceptFollower(user8);

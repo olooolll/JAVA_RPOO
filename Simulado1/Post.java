@@ -18,6 +18,10 @@ public class Post{
         this.date = LocalDate.now();
     }
 
+    //TODO você deve fazer o getter retornar o mesmo tipo da variável, não o conteúdo como
+    // String. Apenas o método asString / show converte o estado do objeto para String.
+    // Se você retornar uma String e o cliente desse método precisar manipular a data
+    //  (calcular o dia seguinte, por exemplo), ferrou para ele.
     private String getDateStr(){
         return this.date.format(DateTimeFormatter.ofPattern("dd/MM/yyyy"));
     }
